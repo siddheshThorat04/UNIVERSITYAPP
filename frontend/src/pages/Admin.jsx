@@ -11,7 +11,7 @@ const Admin = () => {
     const addMeet=async (e)=>{
         try {
             e.preventDefault()
-            const res= await fetch("/api/admin/addMeet",{
+            const res= await fetch(`${"https://universityapp.onrender.com"}/api/admin/addMeet`,{
                 method:"POST",
                 headers: {
                     'Content-Type': 'application/json'
@@ -29,7 +29,7 @@ const Admin = () => {
     const addCollege=async (e)=>{
         try {
             e.preventDefault()
-            const res= await fetch("/api/admin/addCollege",{
+            const res= await fetch(`${"https://universityapp.onrender.com"}/api/admin/addCollege`,{
                 method:"POST",
                 headers: {
                     'Content-Type': 'application/json'
