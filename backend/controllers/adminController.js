@@ -9,7 +9,7 @@ const Event=require("../models/eventModel.js")
 
         
         const { name } = req.body
-        const college = new College({ name })
+        const college = new College({ name:name })
         await college.save()
 
         res.status(200).json(college)
