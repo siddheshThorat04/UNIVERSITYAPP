@@ -4,7 +4,7 @@ import './App.css';
 import {  Route, Routes ,Navigate} from 'react-router-dom';
 import Chat from './pages/Chat';
 import Socket from './Socket';
-import { useAuthContext } from './context/authContext.js';
+import { useAuthContext } from './context/authContext.jsx';
 
 
 import Login from "./pages/Login.jsx"
