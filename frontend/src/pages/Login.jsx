@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { useAuthContext } from '../context/authContext.js'
+import { useAuthContext } from '../context/authContext.jsx'
 import { useDarkThemeContext } from '../context/DarkTheme.jsx'
 const Login = () => {
   const {authUser,setauthUser}=useAuthContext()

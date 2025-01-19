@@ -1,5 +1,5 @@
 import React from 'react'
-import { useDarkThemeContext } from '../context/DarkTheme'
+import { useDarkThemeContext } from '../context/DarkTheme.jsx'
 const PrivacyPolicy = () => {
   const {isDark} = useDarkThemeContext()
   return (

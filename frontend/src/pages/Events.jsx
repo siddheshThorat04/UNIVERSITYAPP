@@ -4,9 +4,9 @@ import React, { useEffect, useState } from 'react'
 import axios from "axios"
 
 import { GoHome } from "react-icons/go";
-import { useDarkThemeContext } from '../context/DarkTheme';
+import { useDarkThemeContext } from '../context/DarkTheme.jsx';
 import { MdDelete } from "react-icons/md";
-import { useAuthContext } from '../context/authContext';
+import { useAuthContext } from '../context/authContext.jsx';
 const Events = () => {
   const [file, setFile] = useState();
   const [Name, setName] = useState("");

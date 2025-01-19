@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 // import TermsModal from "../components/Home/TermsModal";
 import { socket } from "../Socket";
-import { useChat } from "../context/ChatContext";
-import HomeDesktop from "../components/Home/HomeDesktop"; // Updated path
+import { useChat } from "../context/ChatContext.jsx";
+import HomeDesktop from "../components/Home/HomeDesktop.jsx"; // Updated path
 
 const Home = () => {
   const {
