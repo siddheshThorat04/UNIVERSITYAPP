@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 
 import Messages from '../components/Chat/Messages';
 import MessageInput from '../components/Chat/MessageInput';
-import { useChat } from '../context/ChatContext';
-import {useAuthContext} from '../context/authContext';
+import { useChat } from '../contextApi/ChatContext';
+import {useAuthContext} from '../contextApi/authContext';
 
 const Chat = () => {
     const {receiver}=useChat()
