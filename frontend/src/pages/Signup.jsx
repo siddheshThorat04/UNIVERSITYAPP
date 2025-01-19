@@ -15,7 +15,7 @@ const Signup = () => {
   useEffect(() => {
     setDark("false")
     const getCollleges = async () => {
-        const res=await fetch('/api/admin/getClg')
+        const res=await fetch(`${"https://universityapp.onrender.com"}/api/admin/getClg`)
        setcolleges(await res.json())
     }
     getCollleges()
@@ -26,7 +26,7 @@ const Signup = () => {
     const username = e.target[0].value
     const password = e.target[1].value
     const college = e.target[2].value
-    const res = await fetch('/api/auth/signup', {
+    const res = await fetch(`${"https://universityapp.onrender.com"}/api/auth/signup`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
