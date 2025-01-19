@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { useAuthContext } from '../contextApi/authContext';
-import { useDarkThemeContext } from '../contextApi/DarkTheme';
+import { useAuthContext } from '../context/authContext';
+import { useDarkThemeContext } from '../context/DarkTheme';
 import eventsLogo from '../assets/events.png'
 import chattingPPLogo from '../assets/chatHomeLogo.png'
 import newsLogo from '../assets/last_24_hrs.png'

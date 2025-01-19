@@ -3,8 +3,8 @@ import { BsWindowSidebar } from 'react-icons/bs';
 import { MdGroups } from "react-icons/md";
 import { MdDelete } from "react-icons/md";
 import { redirect } from 'react-router-dom';
-import {useAuthContext} from '../contextApi/authContext';
-import { useDarkThemeContext } from '../contextApi/DarkTheme';
+import {useAuthContext} from '../context/authContext';
+import { useDarkThemeContext } from '../context/DarkTheme';
 import {GoHome} from "react-icons/go"
 import { FaInstagram } from "react-icons/fa";
 const StudyZone = () => {
